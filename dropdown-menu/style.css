@@ -17,6 +17,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Navbar */
 #navbar ul {
   list-style: none;
 }
@@ -85,6 +86,7 @@ body {
   background: var(--secondary-color);
 }
 
+/* Showcase */
 #showcase {
   display: flex;
   flex-direction: column;
@@ -99,4 +101,16 @@ body {
 #showcase h1 {
   color: #fff;
   font-size: 4rem;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 600px) {
+  #navbar ul li {
+    display: block;
+  }
+
+  #navbar ul li:hover ul {
+    width: 100%;
+    position: relative;
+  }
 }
