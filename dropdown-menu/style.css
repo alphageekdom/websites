@@ -1,6 +1,8 @@
 :root {
   --primary-color: coral;
   --secondary-color: chocolate;
+  --color-white: #fff;
+  --color-dark: #333;
 }
 
 * {
@@ -20,14 +22,14 @@ body {
 }
 
 #navbar ul li {
-  color: #333;
+  color: var(--color-dark);
   display: inline-block;
   padding: 1rem;
   position: relative;
 }
 
 #navbar ul li a {
-  color: #333;
+  color: var(--color-dark);
   text-decoration: none;
 }
 
@@ -39,11 +41,11 @@ body {
 #navbar ul li:hover {
   cursor: pointer;
   background: var(--primary-color);
-  color: #fff;
+  color: var(--color-white);
 }
 
 #navbar ul li:hover a {
-  color: #fff;
+  color: var(--color-white);
 }
 
 /* Nested dropdown show */
@@ -61,7 +63,7 @@ body {
 }
 
 #navbar ul li:hover ul li a {
-  color: #333;
+  color: var(--color-dark);
 }
 
 #navbar ul li:hover ul li:hover {
@@ -71,7 +73,7 @@ body {
 
 #navbar ul li:hover ul li span {
   float: right;
-  color: #fff;
+  color: var(--color-white);
   background: var(--primary-color);
   padding: 0.2rem 0.5rem;
   text-align: center;
@@ -81,4 +83,20 @@ body {
 
 #navbar ul li:hover ul li:hover span {
   background: var(--secondary-color);
+}
+
+#showcase {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 2rem;
+  background: coral;
+}
+
+#showcase h1 {
+  color: #fff;
+  font-size: 4rem;
 }
