@@ -51,9 +51,14 @@
 
 .btn-outline:hover,
 .btn:hover {
-  background-color: var(--white-color) !important;
+  background-color: var(--white-color);
   color: var(--primary-color);
   opacity: 0.9;
+}
+
+#blog .btn-outline:hover {
+  background-color: var(--white-color);
+  color: #0284d0;
 }
 
 /* Flex items */
