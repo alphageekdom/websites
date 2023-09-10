@@ -61,6 +61,12 @@
   color: #0284d0;
 }
 
+#contact .callback-form .btn:hover {
+  background: var(--primary-color);
+  color: var(--white-color);
+  opacity: 0.9;
+}
+
 /* Flex items */
 .flex-items {
   display: flex;
