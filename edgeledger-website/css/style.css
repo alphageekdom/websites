@@ -153,6 +153,11 @@ img {
   border-radius: 50%;
 }
 
+/* Contact */
+#contact h2 {
+  color: var(--primary-color);
+}
+
 /* Callback form */
 .callback-form {
   width: 100%;
@@ -176,10 +181,32 @@ img {
 }
 
 .callback-form input:focus {
-  outline-color: #28a745;
+  outline-color: var(--primary-color);
 }
 
 .callback-form .btn {
   padding: 12px 0;
   margin-top: 20px;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+}
+
+.footer a {
+  color: var(--white-color);
+}
+
+.footer a:hover {
+  color: var(--primary-color);
+}
+
+.footer .social > * {
+  margin-right: 30px;
 }
