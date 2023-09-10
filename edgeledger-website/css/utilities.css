@@ -23,10 +23,6 @@
   border-radius: 5px;
 }
 
-.btn:hover {
-  opacity: 0.9;
-}
-
 .btn-primary,
 .bg-primary {
   background: var(--primary-color);
@@ -51,6 +47,13 @@
 .btn-outline {
   background: transparent;
   border: 1px solid var(--white-color);
+}
+
+.btn-outline:hover,
+.btn:hover {
+  background-color: var(--white-color) !important;
+  color: var(--primary-color);
+  opacity: 0.9;
 }
 
 /* Flex items */
@@ -107,10 +110,15 @@
 .flex-columns h2 {
   font-size: 40px;
   font-weight: 100;
+  text-transform: capitalize;
+  padding-top: 1rem;
 }
 
 .flex-columns h4 {
   margin-bottom: 10px;
+  text-transform: capitalize;
+  padding-bottom: 0.5rem;
+  border-bottom: var(--white-color) 1px solid;
 }
 
 .flex-columns p {
