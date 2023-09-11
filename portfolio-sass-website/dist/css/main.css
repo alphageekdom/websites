@@ -1,0 +1,29 @@
+/* line 4, scss/main.scss */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* line 9, scss/main.scss */
+body {
+  font-family: 'Dosis', sans-serif;
+  line-height: 1.6;
+  background: #fff; }
+
+/* line 15, scss/main.scss */
+a {
+  text-decoration: none;
+  color: #333; }
+
+/* line 20, scss/main.scss */
+ul {
+  list-style: none; }
+
+/* line 24, scss/main.scss */
+h2,
+h3,
+h4 {
+  text-transform: uppercase; }
+
+/* line 30, scss/main.scss */
+img {
+  width: 100%; }
