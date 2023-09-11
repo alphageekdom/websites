@@ -74,7 +74,7 @@ img {
 
 // Header
 #header {
-  // Header Hom
+  // Header Home
   &-home {
     background: $bg-image no-repeat center right / cover;
     height: 100vh;
@@ -88,6 +88,27 @@ img {
       h1 {
         font-size: 4rem;
         line-height: 1.2;
+      }
+    }
+  }
+
+  // Header Inner
+  &-inner {
+  }
+}
+
+// Home Sections
+#home {
+  &-a {
+    .specials {
+      margin-top: 3rem;
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(4, 1fr);
+
+      .fa-solid {
+        color: $main-color;
+        padding-bottom: 0.4rem;
       }
     }
   }
