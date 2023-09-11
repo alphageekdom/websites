@@ -330,6 +330,7 @@ img {
       .message-input {
         grid-area: message;
         height: 100px;
+        resize: none;
       }
 
       .text-input {

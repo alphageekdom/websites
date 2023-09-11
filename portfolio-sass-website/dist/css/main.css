@@ -373,7 +373,8 @@ img {
     grid-area: phone; }
   #contact-a .text-fields .message-input {
     grid-area: message;
-    height: 100px; }
+    height: 100px;
+    resize: none; }
   #contact-a .text-fields .text-input {
     padding: 0.5rem 1rem; }
 
